@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: ee2930c990d63eb4e9d5a880100b729b
+timeCreated: 1447767752
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kaptain-hack-spraellemand_0
+    21300002: kaptain-hack-spraellemand_1
+    21300004: kaptain-hack-spraellemand_2
+    21300006: kaptain-hack-spraellemand_3
+    21300008: kaptain-hack-spraellemand_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kaptain-hack-spraellemand_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 316
+        width: 29
+        height: 177
+      alignment: 9
+      pivot: {x: 0.6059198, y: 0.92228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: kaptain-hack-spraellemand_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 308
+        width: 27
+        height: 183
+      alignment: 9
+      pivot: {x: 0.6137647, y: 0.94200474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: kaptain-hack-spraellemand_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 194
+        height: 314
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 230.48}
+        - {x: 39, y: 257.47998}
+        - {x: -17, y: 257.47998}
+        - {x: -91, y: 218.48}
+        - {x: -97, y: 165.48}
+        - {x: -97, y: 90.479996}
+        - {x: -64, y: 0.47999573}
+        - {x: -44, y: -17.520004}
+        - {x: 8, y: -28.520004}
+        - {x: 32, y: -24.520004}
+        - {x: 66, y: -31.520004}
+        - {x: 67, y: -53.520004}
+        - {x: 79, y: -56.520004}
+        - {x: 90, y: -56.520004}
+        - {x: 97, y: -43.520004}
+        - {x: 97, y: 61.479996}
+        - {x: 83, y: 208.48}
+    - name: kaptain-hack-spraellemand_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 173
+        width: 60
+        height: 114
+      alignment: 9
+      pivot: {x: 0.31228822, y: 0.91314644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.737293, y: 9.901306}
+        - {x: -18.737293, y: -1.0986938}
+        - {x: -18.737293, y: -104.098694}
+        - {x: 41.262707, y: -104.098694}
+        - {x: 41.262707, y: -59.098694}
+        - {x: 18.262707, y: 9.901306}
+    - name: kaptain-hack-spraellemand_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 29
+        width: 60
+        height: 113
+      alignment: 9
+      pivot: {x: 0.31228796, y: 0.9258633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.737278, y: -96.62256}
+        - {x: -0.737278, y: -104.62256}
+        - {x: 41.262722, y: -104.62256}
+        - {x: 41.262722, y: -70.62256}
+        - {x: 22.262722, y: 8.377441}
+        - {x: -9.737278, y: 8.377441}
+        - {x: -18.737278, y: -5.6225586}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

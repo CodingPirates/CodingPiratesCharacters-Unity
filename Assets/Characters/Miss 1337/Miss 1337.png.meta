@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 0ebe1b34353db834a84281c4fee318b1
+timeCreated: 1447771971
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: miss-1337-spraellemand_0
+    21300002: miss-1337-spraellemand_1
+    21300004: miss-1337-spraellemand_2
+    21300006: miss-1337-spraellemand_3
+    21300008: miss-1337-spraellemand_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: miss-1337-spraellemand_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 100
+        width: 211
+        height: 429
+      alignment: 9
+      pivot: {x: 0.51063025, y: 0.084340915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103.25702, y: 292.81775}
+        - {x: 57.25702, y: 387.81775}
+        - {x: 45.25702, y: 392.81775}
+        - {x: 13.257019, y: 392.81775}
+        - {x: -9.742981, y: 369.81775}
+        - {x: -22.742981, y: 350.81775}
+        - {x: -107.74298, y: 310.81775}
+        - {x: -107.74298, y: 265.81775}
+        - {x: -106.74298, y: 258.81775}
+        - {x: -87.74298, y: 224.81775}
+        - {x: -97.74298, y: 178.81775}
+        - {x: -97.74298, y: 149.81775}
+        - {x: -102.74298, y: 72.81775}
+        - {x: -107.74298, y: 51.81775}
+        - {x: -107.74298, y: 18.817749}
+        - {x: -106.74298, y: 15.817749}
+        - {x: -99.74298, y: 9.817749}
+        - {x: -107.74298, y: 2.817749}
+        - {x: -107.74298, y: -22.182251}
+        - {x: -34.74298, y: -36.18225}
+        - {x: 26.257019, y: -36.18225}
+        - {x: 50.25702, y: -20.182251}
+        - {x: 47.25702, y: 180.81775}
+        - {x: 103.25702, y: 264.81775}
+      - - {x: 85.25702, y: 70.81775}
+        - {x: 84.25702, y: 68.81775}
+        - {x: 84.25702, y: 65.81775}
+        - {x: 86.25702, y: 64.81775}
+        - {x: 89.25702, y: 64.81775}
+        - {x: 90.25702, y: 65.81775}
+        - {x: 90.25702, y: 70.81775}
+      - - {x: 75.25702, y: 207.81775}
+        - {x: 71.25702, y: 207.81775}
+        - {x: 67.25702, y: 204.81775}
+        - {x: 67.25702, y: 189.81775}
+        - {x: 74.25702, y: 189.81775}
+        - {x: 78.25702, y: 196.81775}
+        - {x: 78.25702, y: 205.81775}
+    - name: miss-1337-spraellemand_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 298
+        width: 33
+        height: 231
+      alignment: 9
+      pivot: {x: 0.36406085, y: 0.9660761}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.014008, y: 7.836426}
+        - {x: -12.014008, y: 2.8364258}
+        - {x: -12.014008, y: -223.16357}
+        - {x: 17.985992, y: -223.16357}
+        - {x: 20.985992, y: -222.16357}
+        - {x: 20.985992, y: -19.163574}
+        - {x: 19.985992, y: 7.836426}
+    - name: miss-1337-spraellemand_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 290
+        width: 38
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5885387, y: 0.9476557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.364471, y: 12.457947}
+        - {x: -22.364471, y: -5.542053}
+        - {x: -22.364471, y: -200.54205}
+        - {x: -15.364471, y: -225.54205}
+        - {x: 15.635529, y: -225.54205}
+        - {x: 15.635529, y: 11.457947}
+        - {x: 10.635529, y: 12.457947}
+    - name: miss-1337-spraellemand_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 110
+        width: 71
+        height: 149
+      alignment: 9
+      pivot: {x: 0.3262475, y: 0.9591357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.163574, y: 6.0887756}
+        - {x: -23.163574, y: -5.9112244}
+        - {x: -23.163574, y: -132.91122}
+        - {x: 3.8364258, y: -142.91122}
+        - {x: 47.836426, y: -142.91122}
+        - {x: 47.836426, y: -92.911224}
+        - {x: 21.836426, y: 6.0887756}
+    - name: miss-1337-spraellemand_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 114
+        width: 70
+        height: 143
+      alignment: 9
+      pivot: {x: 0.29172233, y: 0.9391871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.420563, y: -119.30376}
+        - {x: -11.420563, y: -134.30376}
+        - {x: 49.579437, y: -134.30376}
+        - {x: 49.579437, y: -87.30376}
+        - {x: 19.579437, y: 8.696243}
+        - {x: -3.4205627, y: 8.696243}
+        - {x: -12.420563, y: 3.6962433}
+        - {x: -20.420563, y: -2.3037567}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
