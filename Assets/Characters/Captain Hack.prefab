@@ -9,9 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 416546}
   - 95: {fileID: 9577424}
-  - 114: {fileID: 11432818}
   - 50: {fileID: 5045784}
   - 61: {fileID: 6157006}
+  - 114: {fileID: 11432818}
   - 114: {fileID: 11476106}
   m_Layer: 0
   m_Name: Captain Hack

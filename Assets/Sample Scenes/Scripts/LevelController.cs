@@ -15,7 +15,8 @@ public class LevelController : MonoBehaviour
 	public GameObject StartMenuUI;
 	public GameObject LevelCompleteUI;
 
-	public GameObject Player;
+	public GameObject[] Players;
+	public GameObject ActivePlayer;
 	public Transform PlayerStartPosition;
 	public Transform Goal; // used to point camera to goal, so we can see where it is
 
@@ -23,7 +24,14 @@ public class LevelController : MonoBehaviour
 	{
 		UpdateUI ();
 
-		var player = Player.GetComponent<CodingPiratesCharacter> ();
+		// only enable the current active player
+		foreach (var p in Players)
+		{
+			p.SetActive(p == ActivePlayer);
+		}
+
+		// set event handlers for our character
+		var player = ActivePlayer.GetComponent<CodingPiratesCharacter> ();
 		player.Died += PlayerDied;
 		player.LevelCompleted += PlayerLevelCompleted;
 		Camera.main.transform.position = new Vector3(Goal.position.x, Goal.position.y, Camera.main.transform.position.z);
@@ -39,8 +47,8 @@ public class LevelController : MonoBehaviour
 
 	private void StartGame()
 	{
-		Camera.main.GetComponent<FollowCamera> ().target = Player.gameObject;
-		Player.transform.position = PlayerStartPosition.position;
+		Camera.main.GetComponent<FollowCamera> ().target = ActivePlayer.gameObject;
+		ActivePlayer.transform.position = PlayerStartPosition.position;
 		State = GameState.Playing;
 		UpdateUI ();
 	}
@@ -64,21 +72,21 @@ public class LevelController : MonoBehaviour
 		case GameState.NotStarted:
 			StartMenuUI.SetActive (true);
 			LevelCompleteUI.SetActive (false);
-			Player.gameObject.SetActive (false);
+			ActivePlayer.gameObject.SetActive (false);
 			break;
 
 		case GameState.Playing:
 			StartMenuUI.SetActive (false);
 			LevelCompleteUI.SetActive (false);
-			Player.gameObject.SetActive (true);
-			Player.GetComponent<CharacterMovement> ().IsPlaying = true;
+			ActivePlayer.gameObject.SetActive (true);
+			ActivePlayer.GetComponent<CharacterMovement> ().IsPlaying = true;
 			break;
 
 		case GameState.WonLevel:
 			StartMenuUI.SetActive (false);
 			LevelCompleteUI.SetActive (true);
-			Player.gameObject.SetActive (true);
-			Player.GetComponent<CharacterMovement> ().IsPlaying = false;
+			ActivePlayer.gameObject.SetActive (true);
+			ActivePlayer.GetComponent<CharacterMovement> ().IsPlaying = false;
 			break;
 		}
 	}
